@@ -32,6 +32,8 @@ module.exports = withZephyr()({
       remotes: {
         remote_webpack_mf_second:
           "remote_webpack_mf_second@[app2Url]/remoteEntry.js",
+        remote_webpack_mf_third:
+          "remote_webpack_mf_third@[app3Url]/remoteEntry.js",
       },
       shared: { react: { singleton: true }, "react-dom": { singleton: true } },
     }),
