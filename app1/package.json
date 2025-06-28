@@ -1,5 +1,5 @@
 {
-  "name": "default_webpack_mf_first",
+  "name": "host_webpack_mf_first",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -23,6 +23,6 @@
     "webpack-dev-server": "^4.15.0"
   },
   "zephyr:dependencies": {
-    "default_webpack_mf_second": "zephyr:default_webpack_mf_second@*"
+    "remote_webpack_mf_second": "zephyr:remote_webpack_mf_second@*"
   }
 }
