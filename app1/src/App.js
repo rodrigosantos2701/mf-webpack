@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 const RemoteApp2 = React.lazy(() => import("remote_webpack_mf_second/App"));
-const RemoteApp3 = React.lazy(() => import("remote_webpack_mf_third/App"));
+const RemoteApp3 = React.lazy(() => import("remote_2_webpack_mf_third/App"));
 
 const App = () => {
   return (

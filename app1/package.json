@@ -23,6 +23,8 @@
     "webpack-dev-server": "^4.15.0"
   },
   "zephyr:dependencies": {
-    "remote_webpack_mf_second": "zephyr:remote_webpack_mf_second@*"
+    "remote_webpack_mf_second": "zephyr:remote_webpack_mf_second@*",
+    "remote_2_webpack_mf_third": "zephyr:remote_2_webpack_mf_third@*"
+
   }
 }
