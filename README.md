@@ -1,6 +1,6 @@
 # Webpack Module Federation Example
 
-A basic Module Federation setup with three React applications demonstrating micro-frontend architecture using Webpack 5.
+A basic Module Federation setup with two React applications demonstrating micro-frontend architecture using Webpack 5.
 
 ## Technology Stack
 
@@ -26,13 +26,12 @@ A basic Module Federation setup with three React applications demonstrating micr
    This starts both applications concurrently:
    - **app1** (Host): http://localhost:3001
    - **app2** (Remote): http://localhost:3002
-   - **mf-remote-app3** (Remote): http://localhost:3003
    
    Or start them individually:
    ```bash
    cd app1 && pnpm start  # Host on port 3001
    cd app2 && pnpm start  # Remote on port 3002
-   cd mf-remote-app3 && pnpm start  # External remote on port 3003
+
    ```
 
 3. **Build for production**
